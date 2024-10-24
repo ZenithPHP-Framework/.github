@@ -16,36 +16,6 @@ foundation to build modern PHP applications with ease.
 - **Easy to Extend**: Customize the framework to suit your application’s needs with minimal effort.
 - **Bootstrap-Ready**: Pre-included Bootstrap for quick UI prototyping.
 
-## Installation
-
-To get started with ZenithPHP, follow the instructions below:
-
-1. Clone the repository:
-    ```bash
-    https://github.com/ZenithPHP-Framework/full-zenith-framework.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd full-zenith-framework
-    ```
-
-3. Install dependencies using Composer:
-    ```bash
-    composer install
-    ```
-
-4. Configure your environment:
-    - Create a copy of the `.env.example` file and rename it to `.env`.
-    - Set your database credentials and other necessary configurations.
-
-5. Start your local development server:
-    ```bash
-    php -S localhost:8000 -t Public/
-    ```
-
-6. Visit `http://localhost:8000` in your browser to see the landing page.
-
 ## Folder Structure
 
 - **App/**: Contains the core application files.
@@ -56,53 +26,11 @@ To get started with ZenithPHP, follow the instructions below:
 - **Public/**: The main entry point for the application and assets (JS, CSS, images).
 - **routes.php**: Defines all your application's routes.
 
-## How to Get Started
-
-To create your first route:
-
-1. Open `App/routes.php` and define your route:
-    ```php
-    use ZenithPHP\Core\Http\Router;
-    Router::get('/hello', 'WelcomeController', 'index');
-    ```
-
-2. Create a new controller (*WelcomeController.php*) inside `App/Controllers/`:
-    ```php
-    use ZenithPHP\Core\Controller\Controller;
-
-   class WelcomeController extends Controller
-   {
-      public function index()
-      {
-         $this->view('welcome');
-      }
-   }
-    ```
-
-3. Now, create a new view file inside `View/welcome.php`:
-    ```html
-    <h1>Welcome to ZenithPHP</h1>
-    ```
-
-4. Visit `http://localhost:8000/welcome` to see the result.
-
 ## Security Features
 
 - **Password Hashing**: Built-in password hashing methods for user authentication.
 - **Input Validation**: Functions to validate and sanitize user inputs.
 
-## Contributing
 
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature/bugfix.
-3. Submit a pull request with a clear description of your changes.
-
-## License
-
-ZenithPHP is open-source and licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Built with ❤️ by [Dasun Nethsara](https://techsaralk.epizy.com)
+## More Info
+Check out the documentation of the ZenithPHP Framework [here](https://github.com/ZenithPHP-Framework/full-zenith-framework?tab=readme-ov-file#readme)
