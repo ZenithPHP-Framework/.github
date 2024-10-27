@@ -33,4 +33,4 @@ foundation to build modern PHP applications with ease.
 
 
 ## More Info
-Check out the documentation of the ZenithPHP Framework [here](https://github.com/ZenithPHP-Framework/full-zenith-framework?tab=readme-ov-file#readme)
+Check out the documentation of the ZenithPHP Framework [here](https://zenithphp-framework.github.io/)
